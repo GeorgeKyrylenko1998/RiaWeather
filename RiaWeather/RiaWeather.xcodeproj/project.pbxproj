@@ -13,9 +13,12 @@
 		5E60E0B9206961D500A93B22 /* RiaWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E60E0B7206961D500A93B22 /* RiaWeather.xcdatamodeld */; };
 		5E60E0BB206961D500A93B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E60E0BA206961D500A93B22 /* Assets.xcassets */; };
 		5E60E0BE206961D500A93B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E60E0BC206961D500A93B22 /* LaunchScreen.storyboard */; };
+		D9E19B89BA2F8337CD054A5A /* Pods_RiaWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AF0570A4A6085CCD273940 /* Pods_RiaWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10AF0570A4A6085CCD273940 /* Pods_RiaWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiaWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A970CE1430EF03CE8BD26E /* Pods-RiaWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiaWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather.release.xcconfig"; sourceTree = "<group>"; };
 		5E60E0AD206961D500A93B22 /* RiaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E60E0B0206961D500A93B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E60E0B2206961D500A93B22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5E60E0BA206961D500A93B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E60E0BD206961D500A93B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E60E0BF206961D500A93B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D032F398A54125FE3CACC2 /* Pods-RiaWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiaWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E19B89BA2F8337CD054A5A /* Pods_RiaWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FA5092156D977D8B752607C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0D032F398A54125FE3CACC2 /* Pods-RiaWeather.debug.xcconfig */,
+				49A970CE1430EF03CE8BD26E /* Pods-RiaWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5E60E0A4206961D500A93B22 = {
 			isa = PBXGroup;
 			children = (
 				5E60E0AF206961D500A93B22 /* RiaWeather */,
 				5E60E0AE206961D500A93B22 /* Products */,
+				0FA5092156D977D8B752607C /* Pods */,
+				633A7CCE556E470285A6993D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = RiaWeather;
 			sourceTree = "<group>";
 		};
+		633A7CCE556E470285A6993D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AF0570A4A6085CCD273940 /* Pods_RiaWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E60E0C2206961D500A93B22 /* Build configuration list for PBXNativeTarget "RiaWeather" */;
 			buildPhases = (
+				7329494071E6D5CACA89FF08 /* [CP] Check Pods Manifest.lock */,
 				5E60E0A9206961D500A93B22 /* Sources */,
 				5E60E0AA206961D500A93B22 /* Frameworks */,
 				5E60E0AB206961D500A93B22 /* Resources */,
+				959EF2D0D25290A3347B6F28 /* [CP] Embed Pods Frameworks */,
+				17133B9479FE1A85479D36FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17133B9479FE1A85479D36FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7329494071E6D5CACA89FF08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiaWeather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		959EF2D0D25290A3347B6F28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E60E0A9206961D500A93B22 /* Sources */ = {
@@ -276,6 +354,7 @@
 		};
 		5E60E0C3206961D500A93B22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D032F398A54125FE3CACC2 /* Pods-RiaWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +370,7 @@
 		};
 		5E60E0C4206961D500A93B22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A970CE1430EF03CE8BD26E /* Pods-RiaWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
