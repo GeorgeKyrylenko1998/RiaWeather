@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0BB681206C46FA00A8DAC2 /* WeathersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB680206C46FA00A8DAC2 /* WeathersController.swift */; };
+		5E0BB683206C4B7600A8DAC2 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB682206C4B7600A8DAC2 /* CityCell.swift */; };
+		5E0BB686206C4C3000A8DAC2 /* City+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB684206C4C2F00A8DAC2 /* City+CoreDataClass.swift */; };
+		5E0BB687206C4C3000A8DAC2 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB685206C4C2F00A8DAC2 /* City+CoreDataProperties.swift */; };
+		5E0F7B5C206C619D006FCF43 /* DetailWeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F7B5B206C619D006FCF43 /* DetailWeatherController.swift */; };
 		5E60E0B1206961D500A93B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60E0B0206961D500A93B22 /* AppDelegate.swift */; };
-		5E60E0B3206961D500A93B22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60E0B2206961D500A93B22 /* ViewController.swift */; };
 		5E60E0B6206961D500A93B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E60E0B4206961D500A93B22 /* Main.storyboard */; };
 		5E60E0B9206961D500A93B22 /* RiaWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E60E0B7206961D500A93B22 /* RiaWeather.xcdatamodeld */; };
 		5E60E0BB206961D500A93B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E60E0BA206961D500A93B22 /* Assets.xcassets */; };
 		5E60E0BE206961D500A93B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E60E0BC206961D500A93B22 /* LaunchScreen.storyboard */; };
+		5EAC4556206AF3CF00412BC3 /* AddCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC4555206AF3CF00412BC3 /* AddCityController.swift */; };
 		D9E19B89BA2F8337CD054A5A /* Pods_RiaWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AF0570A4A6085CCD273940 /* Pods_RiaWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10AF0570A4A6085CCD273940 /* Pods_RiaWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiaWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A970CE1430EF03CE8BD26E /* Pods-RiaWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiaWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather.release.xcconfig"; sourceTree = "<group>"; };
+		5E0BB680206C46FA00A8DAC2 /* WeathersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathersController.swift; sourceTree = "<group>"; };
+		5E0BB682206C4B7600A8DAC2 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		5E0BB684206C4C2F00A8DAC2 /* City+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "City+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5E0BB685206C4C2F00A8DAC2 /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5E0F7B5B206C619D006FCF43 /* DetailWeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherController.swift; sourceTree = "<group>"; };
 		5E60E0AD206961D500A93B22 /* RiaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E60E0B0206961D500A93B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E60E0B2206961D500A93B22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E60E0B5206961D500A93B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E60E0B8206961D500A93B22 /* RiaWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RiaWeather.xcdatamodel; sourceTree = "<group>"; };
 		5E60E0BA206961D500A93B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E60E0BD206961D500A93B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E60E0BF206961D500A93B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAC4555206AF3CF00412BC3 /* AddCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityController.swift; sourceTree = "<group>"; };
 		D0D032F398A54125FE3CACC2 /* Pods-RiaWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiaWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +64,8 @@
 		5E60E0A4206961D500A93B22 = {
 			isa = PBXGroup;
 			children = (
+				5E0BB684206C4C2F00A8DAC2 /* City+CoreDataClass.swift */,
+				5E0BB685206C4C2F00A8DAC2 /* City+CoreDataProperties.swift */,
 				5E60E0AF206961D500A93B22 /* RiaWeather */,
 				5E60E0AE206961D500A93B22 /* Products */,
 				0FA5092156D977D8B752607C /* Pods */,
@@ -72,8 +84,8 @@
 		5E60E0AF206961D500A93B22 /* RiaWeather */ = {
 			isa = PBXGroup;
 			children = (
+				5EAC4554206AF3B000412BC3 /* Controllers */,
 				5E60E0B0206961D500A93B22 /* AppDelegate.swift */,
-				5E60E0B2206961D500A93B22 /* ViewController.swift */,
 				5E60E0B4206961D500A93B22 /* Main.storyboard */,
 				5E60E0BA206961D500A93B22 /* Assets.xcassets */,
 				5E60E0BC206961D500A93B22 /* LaunchScreen.storyboard */,
@@ -81,6 +93,17 @@
 				5E60E0B7206961D500A93B22 /* RiaWeather.xcdatamodeld */,
 			);
 			path = RiaWeather;
+			sourceTree = "<group>";
+		};
+		5EAC4554206AF3B000412BC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EAC4555206AF3CF00412BC3 /* AddCityController.swift */,
+				5E0BB680206C46FA00A8DAC2 /* WeathersController.swift */,
+				5E0BB682206C4B7600A8DAC2 /* CityCell.swift */,
+				5E0F7B5B206C619D006FCF43 /* DetailWeatherController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		633A7CCE556E470285A6993D /* Frameworks */ = {
@@ -201,9 +224,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RiaWeather/Pods-RiaWeather-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSky/SwiftSky.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSky.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,8 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E60E0B3206961D500A93B22 /* ViewController.swift in Sources */,
+				5E0BB683206C4B7600A8DAC2 /* CityCell.swift in Sources */,
+				5EAC4556206AF3CF00412BC3 /* AddCityController.swift in Sources */,
+				5E0F7B5C206C619D006FCF43 /* DetailWeatherController.swift in Sources */,
+				5E0BB681206C46FA00A8DAC2 /* WeathersController.swift in Sources */,
+				5E0BB687206C4C3000A8DAC2 /* City+CoreDataProperties.swift in Sources */,
 				5E60E0B9206961D500A93B22 /* RiaWeather.xcdatamodeld in Sources */,
+				5E0BB686206C4C3000A8DAC2 /* City+CoreDataClass.swift in Sources */,
 				5E60E0B1206961D500A93B22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -344,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -360,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4BH94TG65;
 				INFOPLIST_FILE = RiaWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = george.RiaWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4BH94TG65;
 				INFOPLIST_FILE = RiaWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = george.RiaWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
